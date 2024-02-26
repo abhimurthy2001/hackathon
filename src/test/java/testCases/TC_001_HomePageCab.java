@@ -14,7 +14,7 @@ public class TC_001_HomePageCab extends BaseClass{
 	
 	
 	
-	@Test(priority = 1)
+	@Test(priority = 1, groups = {"sanity"})
 	public void closeAdvertisement() {
 		
 		try {
@@ -30,7 +30,7 @@ public class TC_001_HomePageCab extends BaseClass{
 		
 	}
 	
-	@Test(priority = 2)
+	@Test(priority = 2, groups = {"sanity"})
 	public void cabSelectTest()
 	{
 		homepage = new MMTHomePage(driver);
@@ -43,7 +43,7 @@ public class TC_001_HomePageCab extends BaseClass{
 		}
 	}
 	
-	@Test(priority = 3)
+	@Test(priority = 3, groups = {"sanity"})
 	public void selectFromCity()
 	{
 		homepage = new MMTHomePage(driver);
@@ -56,7 +56,7 @@ public class TC_001_HomePageCab extends BaseClass{
 		}
 	}
 	
-	@Test(priority = 4)
+	@Test(priority = 4, groups = {"sanity"})
 	public void selectToCity()
 	{
 		homepage = new MMTHomePage(driver);
@@ -69,7 +69,7 @@ public class TC_001_HomePageCab extends BaseClass{
 		}
 	}
 	
-	@Test(priority = 5)
+	@Test(priority = 5, groups = {"sanity"})
 	public void selectPickUpDate()
 	{
 		homepage = new MMTHomePage(driver);
@@ -82,7 +82,7 @@ public class TC_001_HomePageCab extends BaseClass{
 		}
 	}
 	
-	@Test(priority = 6)
+	@Test(priority = 6, groups = {"sanity"})
 	public void selectPickUpTime()
 	{
 		homepage = new MMTHomePage(driver);
@@ -96,7 +96,7 @@ public class TC_001_HomePageCab extends BaseClass{
 		}
 	}
 	
-	@Test(priority = 7)
+	@Test(priority = 7, groups = {"sanity"})
 	public void clickSearchButton()
 	{
 		homepage = new MMTHomePage(driver);
@@ -109,7 +109,7 @@ public class TC_001_HomePageCab extends BaseClass{
 		}
 	}
 	
-	@Test(priority = 8)
+	@Test(priority = 8, groups = {"sanity"})
 	public void verifySUVs() {
 		searchpage = new MMTSearchedCabPage(driver);
 		try {

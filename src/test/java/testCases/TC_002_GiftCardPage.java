@@ -13,7 +13,7 @@ public class TC_002_GiftCardPage extends BaseClass{
 	MMTUserDetailsPage userDetails ;
 	BaseClass bc = new BaseClass();
 	
-	@Test(priority = 9)
+	@Test(priority = 9, groups = {"sanity"})
 	public void weddingCardTest() {
 		logger.info("****** Starting TC_002_GiftCardPage ******");
 		
@@ -31,7 +31,7 @@ public class TC_002_GiftCardPage extends BaseClass{
 		
 	}
 	
-	@Test(priority = 10)
+	@Test(priority = 10, groups = {"sanity"})
 	public void enterUserDetailsTest()
 	{
 		
@@ -46,7 +46,7 @@ public class TC_002_GiftCardPage extends BaseClass{
 		}
 	}
 	
-	@Test(priority = 11)
+	@Test(priority = 11, groups = {"sanity"})
 	public void getErrorMessage()
 	{
 		try {

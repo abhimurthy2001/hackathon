@@ -31,7 +31,7 @@ public class BaseClass {
 	public Logger logger;
 	public Properties p;
 	
-	@BeforeClass
+	@BeforeClass(groups = {"sanity"})
 	@Parameters({"os","browser"})
 	public void setup(String os, String br) throws Exception
 	{
@@ -112,7 +112,7 @@ public class BaseClass {
 	}
 	
 	
-	@AfterClass
+	@AfterClass(groups = {"sanity"})
 	public void tearDown()
 	{
 		driver.quit();

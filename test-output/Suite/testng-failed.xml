@@ -7,6 +7,11 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="os" value="window"/>
     <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
     <classes>
       <class name="testCases.TC_003_UserDetails">
         <methods>
@@ -16,20 +21,6 @@
           <include name="clickHotels"/>
         </methods>
       </class> <!-- testCases.TC_003_UserDetails -->
-      <class name="testCases.TC_001_HomePageCab">
-        <methods>
-          <include name="tearDown"/>
-          <include name="selectPickUpTime"/>
-          <include name="selectFromCity"/>
-          <include name="selectPickUpDate"/>
-          <include name="selectToCity"/>
-          <include name="setup"/>
-          <include name="closeAdvertisement"/>
-          <include name="verifySUVs"/>
-          <include name="clickSearchButton"/>
-          <include name="cabSelectTest"/>
-        </methods>
-      </class> <!-- testCases.TC_001_HomePageCab -->
       <class name="testCases.TC_002_GiftCardPage">
         <methods>
           <include name="enterUserDetailsTest"/>
@@ -39,6 +30,20 @@
           <include name="weddingCardTest"/>
         </methods>
       </class> <!-- testCases.TC_002_GiftCardPage -->
+      <class name="testCases.TC_001_HomePageCab">
+        <methods>
+          <include name="selectPickUpTime"/>
+          <include name="tearDown"/>
+          <include name="selectFromCity"/>
+          <include name="selectPickUpDate"/>
+          <include name="selectToCity"/>
+          <include name="closeAdvertisement"/>
+          <include name="setup"/>
+          <include name="verifySUVs"/>
+          <include name="cabSelectTest"/>
+          <include name="clickSearchButton"/>
+        </methods>
+      </class> <!-- testCases.TC_001_HomePageCab -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

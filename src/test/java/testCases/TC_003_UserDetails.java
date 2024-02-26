@@ -13,7 +13,7 @@ public class TC_003_UserDetails extends BaseClass{
 	
 	
 	
-	@Test(priority = 12)
+	@Test(priority = 12, groups = {"sanity"})
 	public void clickHotels()
 	{
 		logger.info("****** Starting TC_003_UserDetails ******");
@@ -21,8 +21,12 @@ public class TC_003_UserDetails extends BaseClass{
 			userDetails = new MMTUserDetailsPage(driver);
 			bc = new BaseClass();
 			
-			userDetails.closeAd();
-			logger.info("Closed Ad");
+			try {
+				userDetails.closeAd();
+				logger.info("Closed Ad");
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
 			userDetails.clickOnHotels();
 			logger.info("Clicked on Hotels");
 		} catch (Exception e) {
@@ -31,7 +35,7 @@ public class TC_003_UserDetails extends BaseClass{
 		}
 	}
 	
-	@Test(priority = 13)
+	@Test(priority = 13, groups = {"sanity"})
 	public void getNumberOfPeopleTest()
 	{
 		try {

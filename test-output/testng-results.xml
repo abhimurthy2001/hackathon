@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-26T16:12:14 IST" name="Suite" finished-at="2024-02-26T16:14:25 IST" duration-ms="130910">
+  <suite started-at="2024-02-29T00:54:22 IST" name="Suite" finished-at="2024-02-29T00:58:02 IST" duration-ms="219992">
     <groups>
       <group name="sanity">
         <method signature="TC_001_HomePageCab.closeAdvertisement()[pri:1, instance:testCases.TC_001_HomePageCab@6150c3ec]" name="closeAdvertisement" class="testCases.TC_001_HomePageCab"/>
@@ -20,9 +20,9 @@
         <method signature="TC_003_UserDetails.getNumberOfPeopleTest()[pri:13, instance:testCases.TC_003_UserDetails@6989da5e]" name="getNumberOfPeopleTest" class="testCases.TC_003_UserDetails"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2024-02-26T16:12:14 IST" name="Test" finished-at="2024-02-26T16:14:25 IST" duration-ms="130910">
+    <test started-at="2024-02-29T00:54:22 IST" name="Test" finished-at="2024-02-29T00:58:02 IST" duration-ms="219992">
       <class name="testCases.TC_003_UserDetails">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_UserDetails@6989da5e]" started-at="2024-02-26T16:13:47 IST" name="setup" finished-at="2024-02-26T16:13:58 IST" duration-ms="10910" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_UserDetails@6989da5e]" started-at="2024-02-29T00:56:55 IST" name="setup" finished-at="2024-02-29T00:57:35 IST" duration-ms="40746" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -38,21 +38,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="clickHotels()[pri:12, instance:testCases.TC_003_UserDetails@6989da5e]" started-at="2024-02-26T16:13:58 IST" name="clickHotels" finished-at="2024-02-26T16:14:18 IST" duration-ms="20480" status="PASS">
+        <test-method signature="clickHotels()[pri:12, instance:testCases.TC_003_UserDetails@6989da5e]" started-at="2024-02-29T00:57:35 IST" name="clickHotels" finished-at="2024-02-29T00:57:56 IST" duration-ms="20432" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickHotels -->
-        <test-method signature="getNumberOfPeopleTest()[pri:13, instance:testCases.TC_003_UserDetails@6989da5e]" started-at="2024-02-26T16:14:18 IST" name="getNumberOfPeopleTest" finished-at="2024-02-26T16:14:24 IST" duration-ms="5634" status="PASS">
+        <test-method signature="getNumberOfPeopleTest()[pri:13, instance:testCases.TC_003_UserDetails@6989da5e]" started-at="2024-02-29T00:57:56 IST" name="getNumberOfPeopleTest" finished-at="2024-02-29T00:58:00 IST" duration-ms="4564" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getNumberOfPeopleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_003_UserDetails@6989da5e]" started-at="2024-02-26T16:14:24 IST" name="tearDown" finished-at="2024-02-26T16:14:25 IST" duration-ms="1464" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_003_UserDetails@6989da5e]" started-at="2024-02-29T00:58:00 IST" name="tearDown" finished-at="2024-02-29T00:58:02 IST" duration-ms="1320" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_003_UserDetails -->
       <class name="testCases.TC_001_HomePageCab">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_HomePageCab@6150c3ec]" started-at="2024-02-26T16:12:15 IST" name="setup" finished-at="2024-02-26T16:12:27 IST" duration-ms="12606" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_HomePageCab@6150c3ec]" started-at="2024-02-29T00:54:22 IST" name="setup" finished-at="2024-02-29T00:55:09 IST" duration-ms="46107" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -68,45 +68,45 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="closeAdvertisement()[pri:1, instance:testCases.TC_001_HomePageCab@6150c3ec]" started-at="2024-02-26T16:12:28 IST" name="closeAdvertisement" finished-at="2024-02-26T16:12:48 IST" duration-ms="20343" status="PASS">
+        <test-method signature="closeAdvertisement()[pri:1, instance:testCases.TC_001_HomePageCab@6150c3ec]" started-at="2024-02-29T00:55:09 IST" name="closeAdvertisement" finished-at="2024-02-29T00:55:29 IST" duration-ms="20339" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeAdvertisement -->
-        <test-method signature="cabSelectTest()[pri:2, instance:testCases.TC_001_HomePageCab@6150c3ec]" started-at="2024-02-26T16:12:48 IST" name="cabSelectTest" finished-at="2024-02-26T16:12:49 IST" duration-ms="707" status="PASS">
+        <test-method signature="cabSelectTest()[pri:2, instance:testCases.TC_001_HomePageCab@6150c3ec]" started-at="2024-02-29T00:55:29 IST" name="cabSelectTest" finished-at="2024-02-29T00:55:30 IST" duration-ms="733" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cabSelectTest -->
-        <test-method signature="selectFromCity()[pri:3, instance:testCases.TC_001_HomePageCab@6150c3ec]" started-at="2024-02-26T16:12:49 IST" name="selectFromCity" finished-at="2024-02-26T16:12:50 IST" duration-ms="1705" status="PASS">
+        <test-method signature="selectFromCity()[pri:3, instance:testCases.TC_001_HomePageCab@6150c3ec]" started-at="2024-02-29T00:55:30 IST" name="selectFromCity" finished-at="2024-02-29T00:55:31 IST" duration-ms="1588" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectFromCity -->
-        <test-method signature="selectToCity()[pri:4, instance:testCases.TC_001_HomePageCab@6150c3ec]" started-at="2024-02-26T16:12:50 IST" name="selectToCity" finished-at="2024-02-26T16:12:53 IST" duration-ms="2121" status="PASS">
+        <test-method signature="selectToCity()[pri:4, instance:testCases.TC_001_HomePageCab@6150c3ec]" started-at="2024-02-29T00:55:31 IST" name="selectToCity" finished-at="2024-02-29T00:55:34 IST" duration-ms="2288" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectToCity -->
-        <test-method signature="selectPickUpDate()[pri:5, instance:testCases.TC_001_HomePageCab@6150c3ec]" started-at="2024-02-26T16:12:53 IST" name="selectPickUpDate" finished-at="2024-02-26T16:12:53 IST" duration-ms="213" status="PASS">
+        <test-method signature="selectPickUpDate()[pri:5, instance:testCases.TC_001_HomePageCab@6150c3ec]" started-at="2024-02-29T00:55:34 IST" name="selectPickUpDate" finished-at="2024-02-29T00:55:34 IST" duration-ms="216" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectPickUpDate -->
-        <test-method signature="selectPickUpTime()[pri:6, instance:testCases.TC_001_HomePageCab@6150c3ec]" started-at="2024-02-26T16:12:53 IST" name="selectPickUpTime" finished-at="2024-02-26T16:12:54 IST" duration-ms="1653" status="PASS">
+        <test-method signature="selectPickUpTime()[pri:6, instance:testCases.TC_001_HomePageCab@6150c3ec]" started-at="2024-02-29T00:55:34 IST" name="selectPickUpTime" finished-at="2024-02-29T00:55:35 IST" duration-ms="1584" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectPickUpTime -->
-        <test-method signature="clickSearchButton()[pri:7, instance:testCases.TC_001_HomePageCab@6150c3ec]" started-at="2024-02-26T16:12:54 IST" name="clickSearchButton" finished-at="2024-02-26T16:12:58 IST" duration-ms="3873" status="PASS">
+        <test-method signature="clickSearchButton()[pri:7, instance:testCases.TC_001_HomePageCab@6150c3ec]" started-at="2024-02-29T00:55:35 IST" name="clickSearchButton" finished-at="2024-02-29T00:55:38 IST" duration-ms="2587" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickSearchButton -->
-        <test-method signature="verifySUVs()[pri:8, instance:testCases.TC_001_HomePageCab@6150c3ec]" started-at="2024-02-26T16:12:58 IST" name="verifySUVs" finished-at="2024-02-26T16:13:03 IST" duration-ms="5142" status="PASS">
+        <test-method signature="verifySUVs()[pri:8, instance:testCases.TC_001_HomePageCab@6150c3ec]" started-at="2024-02-29T00:55:38 IST" name="verifySUVs" finished-at="2024-02-29T00:55:43 IST" duration-ms="4699" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySUVs -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_HomePageCab@6150c3ec]" started-at="2024-02-26T16:13:03 IST" name="tearDown" finished-at="2024-02-26T16:13:05 IST" duration-ms="1237" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_HomePageCab@6150c3ec]" started-at="2024-02-29T00:55:43 IST" name="tearDown" finished-at="2024-02-29T00:55:44 IST" duration-ms="1360" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_001_HomePageCab -->
       <class name="testCases.TC_002_GiftCardPage">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_GiftCardPage@5aa9e4eb]" started-at="2024-02-26T16:13:05 IST" name="setup" finished-at="2024-02-26T16:13:12 IST" duration-ms="7051" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_GiftCardPage@5aa9e4eb]" started-at="2024-02-29T00:55:44 IST" name="setup" finished-at="2024-02-29T00:56:25 IST" duration-ms="40667" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -122,19 +122,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="weddingCardTest()[pri:9, instance:testCases.TC_002_GiftCardPage@5aa9e4eb]" started-at="2024-02-26T16:13:12 IST" name="weddingCardTest" finished-at="2024-02-26T16:13:40 IST" duration-ms="27980" status="PASS">
+        <test-method signature="weddingCardTest()[pri:9, instance:testCases.TC_002_GiftCardPage@5aa9e4eb]" started-at="2024-02-29T00:56:25 IST" name="weddingCardTest" finished-at="2024-02-29T00:56:49 IST" duration-ms="24356" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- weddingCardTest -->
-        <test-method signature="enterUserDetailsTest()[pri:10, instance:testCases.TC_002_GiftCardPage@5aa9e4eb]" started-at="2024-02-26T16:13:40 IST" name="enterUserDetailsTest" finished-at="2024-02-26T16:13:44 IST" duration-ms="4759" status="PASS">
+        <test-method signature="enterUserDetailsTest()[pri:10, instance:testCases.TC_002_GiftCardPage@5aa9e4eb]" started-at="2024-02-29T00:56:49 IST" name="enterUserDetailsTest" finished-at="2024-02-29T00:56:53 IST" duration-ms="3743" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterUserDetailsTest -->
-        <test-method signature="getErrorMessage()[pri:11, instance:testCases.TC_002_GiftCardPage@5aa9e4eb]" started-at="2024-02-26T16:13:44 IST" name="getErrorMessage" finished-at="2024-02-26T16:13:45 IST" duration-ms="543" status="PASS">
+        <test-method signature="getErrorMessage()[pri:11, instance:testCases.TC_002_GiftCardPage@5aa9e4eb]" started-at="2024-02-29T00:56:53 IST" name="getErrorMessage" finished-at="2024-02-29T00:56:53 IST" duration-ms="481" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getErrorMessage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_GiftCardPage@5aa9e4eb]" started-at="2024-02-26T16:13:45 IST" name="tearDown" finished-at="2024-02-26T16:13:47 IST" duration-ms="1637" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_GiftCardPage@5aa9e4eb]" started-at="2024-02-29T00:56:53 IST" name="tearDown" finished-at="2024-02-29T00:56:55 IST" duration-ms="1305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

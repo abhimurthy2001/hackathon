@@ -1,58 +1,45 @@
-17:16:21.104 [main] INFO  testCases.TC_001_HomePageCab - Entered pickup date.
-17:16:23.838 [main] INFO  testCases.TC_001_HomePageCab - Entered pickup time.
-17:16:28.521 [main] INFO  testCases.TC_001_HomePageCab - Clicked on vehicle search button
-17:16:33.882 [main] INFO  testCases.TC_001_HomePageCab - Clicked on SUVs in filters and lowest price fetched
-17:16:33.883 [main] INFO  testCases.TC_001_HomePageCab - ****** TC_001_HomePageCab Finished ******
-17:16:59.156 [main] INFO  testCases.TC_002_GiftCardPage - ****** Starting TC_002_GiftCardPage ******
-17:17:09.681 [main] INFO  testCases.TC_002_GiftCardPage - Closed Ad
-17:17:16.257 [main] INFO  testCases.TC_002_GiftCardPage - Clicked on giftcards
-17:17:23.638 [main] INFO  testCases.TC_002_GiftCardPage - Sender and Recipient details enter
-17:17:24.274 [main] INFO  testCases.TC_002_GiftCardPage - Error message captured
-17:17:24.274 [main] INFO  testCases.TC_002_GiftCardPage - ****** TC_002_GiftCardPage Finished ******
-17:17:34.738 [main] INFO  testCases.TC_003_UserDetails - ****** Starting TC_003_UserDetails ******
-17:17:45.081 [main] INFO  testCases.TC_003_UserDetails - Closed Ad
-17:17:45.686 [main] INFO  testCases.TC_003_UserDetails - Clicked on Hotels
-17:17:52.673 [main] INFO  testCases.TC_003_UserDetails - Number of people is fetched
-17:17:52.673 [main] INFO  testCases.TC_003_UserDetails - ****** TC_003_UserDetails Finished ******
-16:03:30.363 [main] INFO  testCases.TC_001_HomePageCab - ****** Starting TC_001_HomePageCab ******
-16:03:50.581 [main] INFO  testCases.TC_001_HomePageCab - Closed advertisement
-16:03:51.673 [main] INFO  testCases.TC_001_HomePageCab - Clicked on cabs.
-16:03:54.935 [main] INFO  testCases.TC_001_HomePageCab - Entered from city.
-16:03:57.301 [main] INFO  testCases.TC_001_HomePageCab - Entered to city.
-16:03:57.649 [main] INFO  testCases.TC_001_HomePageCab - Entered pickup date.
-16:04:01.331 [main] INFO  testCases.TC_001_HomePageCab - Entered pickup time.
-16:04:05.636 [main] INFO  testCases.TC_001_HomePageCab - Clicked on vehicle search button
-16:04:10.410 [main] INFO  testCases.TC_001_HomePageCab - Clicked on SUVs in filters and lowest price fetched
-16:04:10.410 [main] INFO  testCases.TC_001_HomePageCab - ****** TC_001_HomePageCab Finished ******
-16:04:18.653 [main] INFO  testCases.TC_002_GiftCardPage - ****** Starting TC_002_GiftCardPage ******
-16:04:41.663 [main] INFO  testCases.TC_002_GiftCardPage - Closed Ad
-16:04:45.007 [main] INFO  testCases.TC_002_GiftCardPage - Clicked on giftcards
-16:04:50.575 [main] INFO  testCases.TC_002_GiftCardPage - Sender and Recipient details enter
-16:04:51.266 [main] INFO  testCases.TC_002_GiftCardPage - Error message captured
-16:04:51.266 [main] INFO  testCases.TC_002_GiftCardPage - ****** TC_002_GiftCardPage Finished ******
-16:04:58.764 [main] INFO  testCases.TC_003_UserDetails - ****** Starting TC_003_UserDetails ******
-16:05:18.862 [main] INFO  testCases.TC_003_UserDetails - Closed Ad
-16:05:19.140 [main] INFO  testCases.TC_003_UserDetails - Clicked on Hotels
-16:05:31.231 [main] INFO  testCases.TC_003_UserDetails - Number of people is fetched
-16:05:31.231 [main] INFO  testCases.TC_003_UserDetails - ****** TC_003_UserDetails Finished ******
-16:12:28.032 [main] INFO  testCases.TC_001_HomePageCab - ****** Starting TC_001_HomePageCab ******
-16:12:48.353 [main] INFO  testCases.TC_001_HomePageCab - Closed advertisement
-16:12:49.160 [main] INFO  testCases.TC_001_HomePageCab - Clicked on cabs.
-16:12:50.871 [main] INFO  testCases.TC_001_HomePageCab - Entered from city.
-16:12:53.001 [main] INFO  testCases.TC_001_HomePageCab - Entered to city.
-16:12:53.219 [main] INFO  testCases.TC_001_HomePageCab - Entered pickup date.
-16:12:54.876 [main] INFO  testCases.TC_001_HomePageCab - Entered pickup time.
-16:12:58.752 [main] INFO  testCases.TC_001_HomePageCab - Clicked on vehicle search button
-16:13:03.897 [main] INFO  testCases.TC_001_HomePageCab - Clicked on SUVs in filters and lowest price fetched
-16:13:03.897 [main] INFO  testCases.TC_001_HomePageCab - ****** TC_001_HomePageCab Finished ******
-16:13:12.194 [main] INFO  testCases.TC_002_GiftCardPage - ****** Starting TC_002_GiftCardPage ******
-16:13:35.786 [main] INFO  testCases.TC_002_GiftCardPage - Closed Ad
-16:13:39.541 [main] INFO  testCases.TC_002_GiftCardPage - Clicked on giftcards
-16:13:44.934 [main] INFO  testCases.TC_002_GiftCardPage - Sender and Recipient details enter
-16:13:45.481 [main] INFO  testCases.TC_002_GiftCardPage - Error message captured
-16:13:45.481 [main] INFO  testCases.TC_002_GiftCardPage - ****** TC_002_GiftCardPage Finished ******
-16:13:58.035 [main] INFO  testCases.TC_003_UserDetails - ****** Starting TC_003_UserDetails ******
-16:14:18.106 [main] INFO  testCases.TC_003_UserDetails - Closed Ad
-16:14:18.513 [main] INFO  testCases.TC_003_UserDetails - Clicked on Hotels
-16:14:24.150 [main] INFO  testCases.TC_003_UserDetails - Number of people is fetched
-16:14:24.150 [main] INFO  testCases.TC_003_UserDetails - ****** TC_003_UserDetails Finished ******
+21:41:34.789 [main] INFO  testCases.TC_003_UserDetails - Clicked on Hotels
+21:41:39.559 [main] INFO  testCases.TC_003_UserDetails - Number of people is fetched
+21:41:39.559 [main] INFO  testCases.TC_003_UserDetails - ****** TC_003_UserDetails Finished ******
+21:46:50.751 [main] INFO  testCases.TC_001_HomePageCab - ****** Starting TC_001_HomePageCab ******
+21:47:11.372 [main] INFO  testCases.TC_001_HomePageCab - Closed advertisement
+21:47:12.206 [main] INFO  testCases.TC_001_HomePageCab - Clicked on cabs.
+21:47:13.786 [main] INFO  testCases.TC_001_HomePageCab - Entered from city.
+21:47:18.590 [main] INFO  testCases.TC_001_HomePageCab - Entered to city.
+21:47:19.065 [main] INFO  testCases.TC_001_HomePageCab - Entered pickup date.
+21:47:22.746 [main] INFO  testCases.TC_001_HomePageCab - Entered pickup time.
+21:47:29.092 [main] INFO  testCases.TC_001_HomePageCab - Clicked on vehicle search button
+21:47:35.293 [main] INFO  testCases.TC_001_HomePageCab - Clicked on SUVs in filters and lowest price fetched
+21:47:35.293 [main] INFO  testCases.TC_001_HomePageCab - ****** TC_001_HomePageCab Finished ******
+21:48:20.566 [main] INFO  testCases.TC_002_GiftCardPage - ****** Starting TC_002_GiftCardPage ******
+21:48:40.672 [main] INFO  testCases.TC_002_GiftCardPage - Closed Ad
+21:48:43.374 [main] INFO  testCases.TC_002_GiftCardPage - Clicked on giftcards
+21:48:48.163 [main] INFO  testCases.TC_002_GiftCardPage - Sender and Recipient details enter
+21:48:48.596 [main] INFO  testCases.TC_002_GiftCardPage - Error message captured
+21:48:48.596 [main] INFO  testCases.TC_002_GiftCardPage - ****** TC_002_GiftCardPage Finished ******
+21:49:33.507 [main] INFO  testCases.TC_003_UserDetails - ****** Starting TC_003_UserDetails ******
+21:49:53.575 [main] INFO  testCases.TC_003_UserDetails - Closed Ad
+21:49:53.857 [main] INFO  testCases.TC_003_UserDetails - Clicked on Hotels
+21:49:58.308 [main] INFO  testCases.TC_003_UserDetails - Number of people is fetched
+21:49:58.308 [main] INFO  testCases.TC_003_UserDetails - ****** TC_003_UserDetails Finished ******
+00:55:09.103 [main] INFO  testCases.TC_001_HomePageCab - ****** Starting TC_001_HomePageCab ******
+00:55:29.405 [main] INFO  testCases.TC_001_HomePageCab - Closed advertisement
+00:55:30.210 [main] INFO  testCases.TC_001_HomePageCab - Clicked on cabs.
+00:55:31.807 [main] INFO  testCases.TC_001_HomePageCab - Entered from city.
+00:55:34.100 [main] INFO  testCases.TC_001_HomePageCab - Entered to city.
+00:55:34.320 [main] INFO  testCases.TC_001_HomePageCab - Entered pickup date.
+00:55:35.907 [main] INFO  testCases.TC_001_HomePageCab - Entered pickup time.
+00:55:38.496 [main] INFO  testCases.TC_001_HomePageCab - Clicked on vehicle search button
+00:55:43.199 [main] INFO  testCases.TC_001_HomePageCab - Clicked on SUVs in filters and lowest price fetched
+00:55:43.200 [main] INFO  testCases.TC_001_HomePageCab - ****** TC_001_HomePageCab Finished ******
+00:56:25.239 [main] INFO  testCases.TC_002_GiftCardPage - ****** Starting TC_002_GiftCardPage ******
+00:56:45.462 [main] INFO  testCases.TC_002_GiftCardPage - Closed Ad
+00:56:48.797 [main] INFO  testCases.TC_002_GiftCardPage - Clicked on giftcards
+00:56:53.339 [main] INFO  testCases.TC_002_GiftCardPage - Sender and Recipient details enter
+00:56:53.824 [main] INFO  testCases.TC_002_GiftCardPage - Error message captured
+00:56:53.824 [main] INFO  testCases.TC_002_GiftCardPage - ****** TC_002_GiftCardPage Finished ******
+00:57:35.882 [main] INFO  testCases.TC_003_UserDetails - ****** Starting TC_003_UserDetails ******
+00:57:55.969 [main] INFO  testCases.TC_003_UserDetails - Closed Ad
+00:57:56.312 [main] INFO  testCases.TC_003_UserDetails - Clicked on Hotels
+00:58:00.885 [main] INFO  testCases.TC_003_UserDetails - Number of people is fetched
+00:58:00.885 [main] INFO  testCases.TC_003_UserDetails - ****** TC_003_UserDetails Finished ******
